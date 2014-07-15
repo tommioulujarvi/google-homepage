@@ -1,0 +1,203 @@
+div {
+	display: block;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+header ul {
+	background: grey;
+	display: inline block;
+	float: right;
+	width: 100%;
+}
+
+header ul li {
+	float: right;
+	display: inline-block;
+	padding: 2% 10% 0 0;
+	/*background: grey;*/
+}
+.thebuttons{
+	padding: 0.5em;
+	
+}
+
+.search{
+	background: #EDEDED;
+	margin: 0 0 0 1em;
+	
+}
+.wrapper{
+	min-height: 100%;
+	position: relative;
+	height: auto !important;
+	height: 100%;
+	margin: 0;
+	
+
+}
+.block {
+	
+	clear: both;
+	position: absolute;
+	margin: 0 0 0 0;
+	width: 33%;
+	left: 33%;
+	top: 33%;
+}
+
+form input{
+	
+	width: 100%;
+	position: relative;
+	
+}
+li{
+	
+}
+/*
+.right_ul{
+	margin: 0 0 0 75%;
+	float: right;
+	
+}
+
+.left_ul{
+	margin: 0 0 0 10%;
+	float: left;
+	padding: 0;
+	
+}
+*/
+
+img{
+	
+	width: 100%;
+	position: relative;
+
+}
+
+*{
+	text-align: center;
+	margin:0;
+	padding: 0;
+
+}
+html, body {
+height: 100%;
+width: 100%;
+}
+
+
+footer{
+	position: relative;
+	top: -2em;
+	height: 2em;
+	background:#EDEDED;
+	
+}
+.right_ul {
+	
+	border: 0;
+	padding: 0;
+	margin: 0;
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.right_ul ul{
+	
+	float: right;
+	display: inline-block;
+	height: 100%;
+	padding: 0;
+	width: 100%;
+	margin: 0;
+
+}
+
+.right_ul li{
+	
+	float: right;
+	display: inline-block;
+	text-align: center;
+	margin: auto;
+	padding: 0.5em;
+	line-height: 1em;
+	height: auto;
+	width: auto;
+	list-style-type: none;
+	color:grey;
+
+}
+
+.left_ul {
+	
+	margin: 0;
+	border: 0;
+	padding: 0;
+	position: absolute;
+	width: 50%;
+	top: 0;
+	left: 0;
+	height: 100%;
+	
+
+}
+.left_ul ul{	
+	float: left;
+	display: inline-block;	
+	height: 100%;
+	padding: 0;
+	width: 100%;
+	margin: 0;
+}
+
+.left_ul li{
+	color:grey;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+	padding: 0.5em;
+	line-height: 1em;
+	height: auto;
+	width: auto;
+	list-style-type: none;
+
+	
+}
+
+
+/*
+.left_ul li:nth-child(1){
+	margin: 0 0 0 1%;
+}
+
+.left_ul li:nth-child(2){
+	margin: 0 0 0 1%;
+}
+
+.left_ul li:nth-child(3){
+	margin: 0 0 0 1%;
+}
+
+.left_ul li:nth-child(4){
+	margin: 0 0 0 1%;
+}
+
+.left_ul li:nth-child(5){
+	margin: 0 0 0 1%;
+	
+}
+
+.left_ul li:nth-child(6){
+	margin: 0 0 0 1%;
+
+}
+*/
